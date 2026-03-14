@@ -1,4 +1,7 @@
 # DigiPramaan API
+## Demo Video
+
+[![Watch the Demo](https://img.youtube.com/vi/9aPlsfNwyk0/0.jpg)](https://youtu.be/9aPlsfNwyk0)
 
 **Intelligent Document Processing & Upload Optimization Engine**
 

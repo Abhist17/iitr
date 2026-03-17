@@ -276,31 +276,7 @@ This is real compression — not hardcoded values. Sharp reads the actual image 
 - `*_ocr.jpg` — grayscale + contrast-boosted, fed into Tesseract for best OCR accuracy
 
 **Real-world result:** A 4 MB blurry phone photo of an Aadhaar card becomes a 380 KB sharp, properly-exposed, high-resolution image — smaller file, better quality for OCR.
-
 ---
-
-## AI Backend Options
-
-Set `AI_BACKEND` in `.env`:
-
-| Value | Service | Where to get key | Cost |
-|---|---|---|---|
-| `openrouter` | OpenRouter.ai | [openrouter.ai](https://openrouter.ai) | Free tier available |
-| `gemini` | Google Gemini 1.5 Flash | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) | Free (1500 req/day) |
-| `ollama` | Local Ollama | No key needed | Free, runs locally |
-
-**Recommended for hackathon:** `gemini` — free, no rate limit issues, handles Hindi text well.
-
-**Best free OpenRouter model:**
-```
-OPENROUTER_MODEL=meta-llama/llama-3.2-11b-vision-instruct:free
-```
-
----
-
-## Supported Document Types
-
-Auto-detected — you do not need to tell the API what type you are uploading.
 
 | Document | Fields Extracted |
 |---|---|

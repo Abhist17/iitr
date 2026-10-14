@@ -1,0 +1,9 @@
+.env
+**/.env
+node_modules/
+venv/
+.venv/
+__pycache__/
+backend/uploads/
+backend/processed/
+backend/ocr_service/sys
